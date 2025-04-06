@@ -1,0 +1,84 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.764463",
+   "Default View_TopLeft":"-110,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 2180 -y 1040 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 2180 -y 1070 -defaultsOSRD
+preplace port port-id_ld0 -pg 1 -lvl 5 -x 2180 -y 480 -defaultsOSRD
+preplace port port-id_ld1 -pg 1 -lvl 5 -x 2180 -y 510 -defaultsOSRD
+preplace port port-id_ld2 -pg 1 -lvl 5 -x 2180 -y 540 -defaultsOSRD
+preplace port port-id_ld3 -pg 1 -lvl 5 -x 2180 -y 570 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_sw0 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 1370 -y 830 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 270 -y 930 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 1930 -y 1250 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 4 -x 1930 -y 770 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 3 -x 1370 -y 1090 -defaultsOSRD
+preplace inst async_sim_0 -pg 1 -lvl 1 -x 270 -y 610 -defaultsOSRD
+preplace inst async_sim_1 -pg 1 -lvl 1 -x 270 -y 170 -defaultsOSRD
+preplace inst axi_fifo_v3_0 -pg 1 -lvl 2 -x 860 -y 860 -defaultsOSRD
+preplace inst axi_fifo_v3_1 -pg 1 -lvl 2 -x 860 -y 440 -defaultsOSRD
+preplace netloc async_sim_0_buffer_in_ready 1 1 1 490 510n
+preplace netloc async_sim_0_buffer_out_data 1 1 3 590 110 NJ 110 1730
+preplace netloc async_sim_0_buffer_out_valid 1 1 1 500 530n
+preplace netloc async_sim_0_done 1 1 3 520J 130 NJ 130 1710
+preplace netloc async_sim_0_o1 1 1 4 570J 170 NJ 170 NJ 170 2150J
+preplace netloc async_sim_0_o2 1 1 4 630J 180 NJ 180 NJ 180 2130J
+preplace netloc async_sim_0_o3 1 1 4 550J 140 NJ 140 NJ 140 2160J
+preplace netloc async_sim_0_o4 1 1 4 600J 150 NJ 150 NJ 150 2140J
+preplace netloc async_sim_0_started 1 1 3 480J 120 NJ 120 1720
+preplace netloc async_sim_1_buffer_in_ready 1 1 1 620 70n
+preplace netloc async_sim_1_buffer_out_data 1 1 1 580 110n
+preplace netloc async_sim_1_buffer_out_valid 1 1 1 640 90n
+preplace netloc axi_fifo2_0_buffer_out_data 1 0 4 60 360 610J 220 1120 540 NJ
+preplace netloc axi_fifo_v3_0_avg_read_cycles_out 1 2 2 1140 680 1600J
+preplace netloc axi_fifo_v3_0_avg_write_cycles_out 1 2 2 1170 690 1580J
+preplace netloc axi_fifo_v3_0_axi_avg_read_cycles_out 1 2 2 1140 970 1520J
+preplace netloc axi_fifo_v3_0_axi_avg_write_cycles_out 1 2 2 1120 960 1540J
+preplace netloc axi_fifo_v3_0_axi_max_read_cycles_out 1 2 2 1110 1210 1540J
+preplace netloc axi_fifo_v3_0_axi_max_write_cycles_out 1 2 2 1090 1220 1630J
+preplace netloc axi_fifo_v3_0_axi_min_read_cycles_out 1 2 2 1080 1230 1730J
+preplace netloc axi_fifo_v3_0_axi_min_write_cycles_out 1 2 2 1070 1240 1560J
+preplace netloc axi_fifo_v3_0_buffer_in_ready 1 0 3 70 370 560J 190 1100
+preplace netloc axi_fifo_v3_0_buffer_out_valid 1 0 3 50 350 540J 200 1090
+preplace netloc axi_fifo_v3_0_max_read_cycles_out 1 2 2 1180 700 1560J
+preplace netloc axi_fifo_v3_0_max_write_cycles_out 1 2 2 1190 710 1540J
+preplace netloc axi_fifo_v3_0_min_read_cycles_out 1 2 2 1190 950 1580J
+preplace netloc axi_fifo_v3_0_min_write_cycles_out 1 2 2 1100 1250 1620J
+preplace netloc axi_fifo_v3_1_avg_read_cycles_out 1 2 2 NJ 380 1700
+preplace netloc axi_fifo_v3_1_avg_write_cycles_out 1 2 2 NJ 400 1690
+preplace netloc axi_fifo_v3_1_axi_avg_read_cycles_out 1 2 2 1160 1270 1710J
+preplace netloc axi_fifo_v3_1_axi_avg_write_cycles_out 1 2 2 1150 1260 1530J
+preplace netloc axi_fifo_v3_1_axi_max_read_cycles_out 1 2 2 1080 640 1610J
+preplace netloc axi_fifo_v3_1_axi_max_write_cycles_out 1 2 2 1220 650 1590J
+preplace netloc axi_fifo_v3_1_axi_min_read_cycles_out 1 2 2 1200 660 1570J
+preplace netloc axi_fifo_v3_1_axi_min_write_cycles_out 1 2 2 1190 670 1550J
+preplace netloc axi_fifo_v3_1_buffer_in_ready 1 0 3 70 340 510J 160 1080
+preplace netloc axi_fifo_v3_1_buffer_out_data 1 0 3 60 330 530J 210 1070
+preplace netloc axi_fifo_v3_1_buffer_out_valid 1 0 3 70 10 NJ 10 1110
+preplace netloc axi_fifo_v3_1_max_read_cycles_out 1 2 2 NJ 420 1680
+preplace netloc axi_fifo_v3_1_max_write_cycles_out 1 2 2 NJ 440 1620
+preplace netloc axi_fifo_v3_1_min_read_cycles_out 1 2 2 1110J 470 1670
+preplace netloc axi_fifo_v3_1_min_write_cycles_out 1 2 2 NJ 480 1530
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 4 40 440 510 1080 1220 1280 1600J
+preplace netloc sw0_1 1 0 1 20 220n
+preplace netloc sys_clock_1 1 0 4 30 450 470 1090 1200 1290 1660
+preplace netloc axi_fifo2_0_m_axi 1 2 2 1130 460 N
+preplace netloc axi_fifo_v3_1_m_axi 1 2 2 1210 500 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 1640 440n
+preplace netloc axi_interconnect_0_M01_AXI 1 3 1 1650 480n
+preplace netloc processing_system7_0_DDR 1 4 1 2140J 1040n
+preplace netloc processing_system7_0_FIXED_IO 1 4 1 2160J 1070n
+levelinfo -pg 1 0 270 860 1370 1930 2180
+pagesize -pg 1 -db -bbox -sgen -110 0 2290 1360
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_clkrst_cnt":"2"
+}

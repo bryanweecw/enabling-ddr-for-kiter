@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/bryan/bram_from_scratch/bram_from_scratch.srcs/sources_1/new/axi_fifo_n2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_fifo_n2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/bryan/bram_from_scratch/bram_from_scratch.srcs/sources_1/imports/hdl/lib_pkg_v1_0_rfs.vhd" into library lib_pkg_v1_0_2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/bryan/bram_from_scratch/bram_from_scratch.srcs/sources_1/new/axi_fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_fifo2'

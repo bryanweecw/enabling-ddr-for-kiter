@@ -1,0 +1,92 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.551484",
+   "Default View_TopLeft":"151,36",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2560 -y 710 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2560 -y 740 -defaultsOSRD
+preplace port iic -pg 1 -lvl 7 -x 2560 -y 770 -defaultsOSRD
+preplace port port-id_ac_pblrc -pg 1 -lvl 7 -x 2560 -y 550 -defaultsOSRD
+preplace port port-id_ac_bclk -pg 1 -lvl 7 -x 2560 -y 520 -defaultsOSRD
+preplace port port-id_ac_pbdat -pg 1 -lvl 7 -x 2560 -y 1050 -defaultsOSRD
+preplace port port-id_ac_reclrc -pg 1 -lvl 7 -x 2560 -y 580 -defaultsOSRD
+preplace port port-id_ac_recdat -pg 1 -lvl 0 -x 0 -y 1210 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 2070 -defaultsOSRD
+preplace port port-id_ac_mclk -pg 1 -lvl 7 -x 2560 -y 960 -defaultsOSRD
+preplace port port-id_sw0 -pg 1 -lvl 0 -x 0 -y 2370 -defaultsOSRD
+preplace port port-id_ac_muten -pg 1 -lvl 7 -x 2560 -y 990 -defaultsOSRD
+preplace port port-id_led -pg 1 -lvl 7 -x 2560 -y 1020 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 6 -x 2300 -y 780 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 120 -y 2070 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -x 320 -y 2160 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 620 -y 2270 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 1720 -y 120 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 5 -x 1720 -y 870 -defaultsOSRD
+preplace inst axi_interconnect_2 -pg 1 -lvl 5 -x 1720 -y 340 -defaultsOSRD
+preplace inst axi_interconnect_3 -pg 1 -lvl 5 -x 1720 -y 560 -defaultsOSRD
+preplace inst axi_interconnect_4 -pg 1 -lvl 5 -x 1720 -y 1120 -defaultsOSRD
+preplace inst axi_interconnect_5 -pg 1 -lvl 5 -x 1720 -y 1360 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -x 2300 -y 1640 -defaultsOSRD
+preplace inst audio_interface_wrap_0 -pg 1 -lvl 4 -x 1040 -y 1390 -defaultsOSRD
+preplace netloc ac_recdat_1 1 0 6 NJ 1210 NJ 1210 NJ 1210 820 2140 1500J 1640 2040J
+preplace netloc audio_interface_wrap_0_ac_bclk_0 1 4 3 1300J 680 1870J 520 NJ
+preplace netloc audio_interface_wrap_0_ac_pbdat_0 1 4 3 1470J 1530 2090 2250 2530J
+preplace netloc audio_interface_wrap_0_ac_pblrc_0 1 4 3 1420J 710 1970J 550 NJ
+preplace netloc audio_interface_wrap_0_ac_reclrc_0 1 4 3 1410J 690 2010J 560 2510J
+preplace netloc audio_interface_wrap_0_op_in_ready_01 1 4 2 1490 1490 1910J
+preplace netloc audio_interface_wrap_0_op_in_ready_02 1 4 2 1460 1500 2080J
+preplace netloc audio_interface_wrap_0_op_in_ready_03 1 4 2 1390 1610 NJ
+preplace netloc audio_interface_wrap_0_op_in_ready_04 1 4 2 1310 1710 NJ
+preplace netloc audio_interface_wrap_0_op_in_ready_05 1 4 2 1350 1590 1950J
+preplace netloc audio_interface_wrap_0_op_in_ready_06 1 4 2 1340 1540 1940J
+preplace netloc audio_interface_wrap_0_op_in_valid_01 1 4 2 1500 1240 1890J
+preplace netloc audio_interface_wrap_0_op_in_valid_02 1 4 2 1440 1510 NJ
+preplace netloc audio_interface_wrap_0_op_in_valid_03 1 4 2 1380 1630 NJ
+preplace netloc audio_interface_wrap_0_op_in_valid_04 1 4 2 1270 1750 NJ
+preplace netloc audio_interface_wrap_0_op_in_valid_05 1 4 2 1360 1560 1960J
+preplace netloc audio_interface_wrap_0_op_in_valid_06 1 4 2 1290 1620 1890J
+preplace netloc audio_interface_wrap_0_op_out_ready_01 1 4 2 1480 1480 1940J
+preplace netloc audio_interface_wrap_0_op_out_ready_02 1 4 2 1300 1550 NJ
+preplace netloc audio_interface_wrap_0_op_out_ready_03 1 4 2 1370 1650 NJ
+preplace netloc audio_interface_wrap_0_op_out_ready_04 1 4 2 1320 1670 1930J
+preplace netloc audio_interface_wrap_0_op_out_ready_05 1 4 2 1250 1680 1900J
+preplace netloc audio_interface_wrap_0_op_out_ready_06 1 4 2 N 1580 1910J
+preplace netloc audio_interface_wrap_0_op_out_valid_01 1 4 2 1450 1520 2070J
+preplace netloc audio_interface_wrap_0_op_out_valid_02 1 4 2 1280 1570 NJ
+preplace netloc audio_interface_wrap_0_op_out_valid_03 1 4 2 1330 1690 NJ
+preplace netloc audio_interface_wrap_0_op_out_valid_04 1 4 2 1260 1730 1920J
+preplace netloc audio_interface_wrap_0_op_out_valid_05 1 4 2 1240 1740 1870J
+preplace netloc audio_interface_wrap_0_op_out_valid_06 1 4 2 N 1600 1880J
+preplace netloc clk_wiz_0_clk_out1 1 1 5 220 2240 430J 2170 NJ 2170 NJ 2170 1970
+preplace netloc clk_wiz_1_clk_24mhz 1 2 5 NJ 2160 800J 2180 NJ 2180 1980J 2260 2520J
+preplace netloc clk_wiz_1_clk_i2s 1 1 5 NJ 2080 NJ 2080 830 2160 1400 720 1870
+preplace netloc clk_wiz_1_clk_i2s1 1 2 2 430J 2070 800
+preplace netloc clk_wiz_1_locked 1 2 1 420 2180n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 3 810 2190 1430 2190 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 5 440 2370 NJ 2370 NJ 2370 NJ 2370 2510
+preplace netloc sw0_1 1 0 7 NJ 2370 NJ 2370 430J 2380 NJ 2380 NJ 2380 NJ 2380 2540J
+preplace netloc sys_clock_1 1 0 6 20 2000 NJ 2000 440 2150 NJ 2150 1520J 1760 2010J
+preplace netloc audio_interface_wrap_0_m_axi_1 1 4 2 1330 700 2070
+preplace netloc audio_interface_wrap_0_m_axi_2 1 4 2 1330 750 2040
+preplace netloc audio_interface_wrap_0_m_axi_3 1 4 2 1270 730 2050
+preplace netloc audio_interface_wrap_0_m_axi_4 1 4 2 1280 740 2030
+preplace netloc audio_interface_wrap_0_m_axi_5 1 4 2 1520 990 1990
+preplace netloc audio_interface_wrap_0_m_axi_6 1 4 2 1510 1000 1980J
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 2060 120n
+preplace netloc axi_interconnect_1_M00_AXI 1 5 1 2090 760n
+preplace netloc axi_interconnect_2_M00_AXI 1 5 1 2020 340n
+preplace netloc axi_interconnect_3_M00_AXI 1 5 1 2000 560n
+preplace netloc axi_interconnect_4_M00_AXI 1 5 1 2080 700n
+preplace netloc axi_interconnect_5_M00_AXI 1 5 1 1880 720n
+preplace netloc processing_system7_0_DDR 1 6 1 2510J 710n
+preplace netloc processing_system7_0_FIXED_IO 1 6 1 NJ 740
+preplace netloc processing_system7_0_IIC_0 1 6 1 2510J 760n
+levelinfo -pg 1 0 120 320 620 1040 1720 2300 2560
+pagesize -pg 1 -db -bbox -sgen -120 0 2680 2390
+"
+}
+{
+   "da_clkrst_cnt":"5"
+}

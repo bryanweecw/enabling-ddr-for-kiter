@@ -1,0 +1,109 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_2.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'broadcast_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_6.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'broadcast_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_8.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'broadcast_8'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/const_value_6.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'const_value_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/countdown.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'countdown'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/delay.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'delay'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fix2fp_and_scaledown.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fix2fp_and_scaledown'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fix2fp_flopoco_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2_LZOCS'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2exponentConversion'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2exponentFinal'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2zeroD'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2_fractionConvert'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2_oneSubstracter'
+INFO: [VRFC 10-3107] analyzing entity 'Fix2FP_0_23_S_8_23_F250_uid2roundingAdder'
+INFO: [VRFC 10-3107] analyzing entity 'fix2fp_flopoco_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/float2int.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'float2int'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/float2int_flopoco_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LeftShifter24_by_max_36_F250_uid4'
+INFO: [VRFC 10-3107] analyzing entity 'float2int_flopoco_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp2fix_and_scaleup.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp2fix_and_scaleup'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp2fix_flopoco_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LeftShifter24_by_max_26_F250_uid4'
+INFO: [VRFC 10-3107] analyzing entity 'fp2fix_flopoco_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_add.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_add'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_add_flopoco_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RightShifterSticky24_by_max_26_F250_uid4'
+INFO: [VRFC 10-3107] analyzing entity 'IntAdder_27_F250_uid6'
+INFO: [VRFC 10-3107] analyzing entity 'Normalizer_Z_28_28_28_F250_uid8'
+INFO: [VRFC 10-3107] analyzing entity 'IntAdder_34_F250_uid11'
+INFO: [VRFC 10-3107] analyzing entity 'fp_add_flopoco_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_max.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_max'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_max_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_max_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_min.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_min'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_min_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_min_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_prod.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fp_prod'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fp_prod_flopoco_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DSPBlock_17x24_F250_uid9'
+INFO: [VRFC 10-3107] analyzing entity 'DSPBlock_7x24_F250_uid11'
+INFO: [VRFC 10-3107] analyzing entity 'IntAdder_32_F250_uid14'
+INFO: [VRFC 10-3107] analyzing entity 'IntMultiplier_F250_uid5'
+INFO: [VRFC 10-3107] analyzing entity 'IntAdder_33_F250_uid17'
+INFO: [VRFC 10-3107] analyzing entity 'fp_prod_flopoco_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/fpc_to_i2s.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fpc_to_i2s'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_zero.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_fifo_zero'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_one.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_fifo_one'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_n.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_fifo_n'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_merger.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_merger'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/hs_merger_one.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hs_merger_one'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/i2s_to_fpc.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'i2s_to_fpc'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/i2s_transceiver.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'i2s_transceiver'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/input_interface.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input_interface'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_56.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input_selector_56'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_6.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input_selector_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_78.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'input_selector_78'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/output_interface.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_interface'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_56.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_selector_56'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_6.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_selector_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_78.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_selector_78'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/store_send.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'store_send'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/tapiir_circuit.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tapiir'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/tapiir_top.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'audio_interface_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/ui_controller.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ui_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/vslider.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vslider'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/components/vslider_f250.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vslider_f250'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/testbenches/tb_audio_in_out.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_audio_in_out'
+ERROR: [VRFC 10-3353] formal port 'ui_in_numeric_addr' has no actual or default value [/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/testbenches/tb_audio_in_out.vhd:84]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/testbenches/tb_audio_in_out.vhd:11]
+INFO: [VRFC 10-8704] VHDL file '/home/jaime/Documents/research/dadop/build/vhdl/tapiir-ui-ie-greedy-dd/testbenches/tb_audio_in_out.vhd' is ignored due to errors

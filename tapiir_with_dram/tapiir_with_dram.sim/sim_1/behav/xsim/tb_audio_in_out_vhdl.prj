@@ -1,0 +1,49 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_2.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_6.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/broadcast_8.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/const_value_6.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/countdown.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/delay.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fix2fp_and_scaledown.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fix2fp_flopoco_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/float2int.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/float2int_flopoco_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp2fix_and_scaleup.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp2fix_flopoco_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_add.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_add_flopoco_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_max.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_max_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_min.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_min_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_prod.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fp_prod_flopoco_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/fpc_to_i2s.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_zero.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_one.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo_n.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_fifo.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_merger.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/hs_merger_one.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/i2s_to_fpc.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/i2s_transceiver.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/input_interface.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_56.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_6.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/input_selector_78.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/output_interface.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_56.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_6.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/output_selector_78.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/store_send.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/tapiir_circuit.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/tapiir_top.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/ui_controller.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/vslider.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/components/vslider_f250.vhdl" \
+"../../../../../../vhdl/tapiir-ui-ie-greedy-dd/testbenches/tb_audio_in_out.vhd" \
+
+# Do not sort compile order
+nosort

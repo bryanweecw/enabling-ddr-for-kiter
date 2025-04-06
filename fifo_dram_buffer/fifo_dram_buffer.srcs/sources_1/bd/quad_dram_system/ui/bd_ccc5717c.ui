@@ -1,0 +1,125 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.827053",
+   "Default View_TopLeft":"-221,-89",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 2390 -y 1350 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 2390 -y 1380 -defaultsOSRD
+preplace port port-id_ld0 -pg 1 -lvl 6 -x 2390 -y 1050 -defaultsOSRD
+preplace port port-id_ld1 -pg 1 -lvl 6 -x 2390 -y 1080 -defaultsOSRD
+preplace port port-id_ld2 -pg 1 -lvl 6 -x 2390 -y 1110 -defaultsOSRD
+preplace port port-id_ld3 -pg 1 -lvl 6 -x 2390 -y 1140 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -200 -y 180 -defaultsOSRD
+preplace port port-id_sw0 -pg 1 -lvl 0 -x -200 -y 250 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x -200 -y 150 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1710 -y 1600 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 4 -x 1710 -y 940 -defaultsOSRD
+preplace inst axi_interconnect_2 -pg 1 -lvl 4 -x 1710 -y 1160 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 100 -y 1320 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 2140 -y 1370 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 1420 -y 1130 -defaultsOSRD
+preplace inst axi_interconnect_3 -pg 1 -lvl 4 -x 1710 -y 1380 -defaultsOSRD
+preplace inst async_sim_0 -pg 1 -lvl 5 -x 2140 -y 1060 -defaultsOSRD
+preplace inst async_sim_1 -pg 1 -lvl 1 -x 100 -y 200 -defaultsOSRD
+preplace inst async_sim_2 -pg 1 -lvl 1 -x 100 -y 530 -defaultsOSRD
+preplace inst async_sim_3 -pg 1 -lvl 1 -x 100 -y 920 -defaultsOSRD
+preplace inst axi_fifo_v3_0 -pg 1 -lvl 2 -x 610 -y 1460 -defaultsOSRD
+preplace inst axi_fifo_v3_1 -pg 1 -lvl 2 -x 610 -y 200 -defaultsOSRD
+preplace inst axi_fifo_v3_2 -pg 1 -lvl 2 -x 610 -y 620 -defaultsOSRD
+preplace inst axi_fifo_v3_3 -pg 1 -lvl 2 -x 610 -y 1040 -defaultsOSRD
+preplace netloc async_sim_0_buffer_in_ready 1 1 5 390 1760 NJ 1760 N 1760 NJ 1760 2360
+preplace netloc async_sim_0_buffer_out_data 1 1 5 380 1730 NJ 1730 N 1730 NJ 1730 2340
+preplace netloc async_sim_0_buffer_out_valid 1 1 5 370 1770 NJ 1770 N 1770 NJ 1770 2350
+preplace netloc async_sim_0_o1 1 5 1 2370J 1050n
+preplace netloc async_sim_0_o2 1 5 1 NJ 1080
+preplace netloc async_sim_0_o3 1 5 1 2370J 1100n
+preplace netloc async_sim_0_o4 1 5 1 2370J 1120n
+preplace netloc async_sim_1_buffer_in_ready 1 1 1 380 100n
+preplace netloc async_sim_1_buffer_out_data 1 1 1 370 140n
+preplace netloc async_sim_1_buffer_out_valid 1 1 1 390 120n
+preplace netloc async_sim_2_buffer_in_ready 1 1 1 340 430n
+preplace netloc async_sim_2_buffer_out_data 1 1 1 300 470n
+preplace netloc async_sim_2_buffer_out_valid 1 1 1 350 450n
+preplace netloc async_sim_3_buffer_in_ready 1 1 1 310 820n
+preplace netloc async_sim_3_buffer_out_data 1 1 1 300 860n
+preplace netloc async_sim_3_buffer_out_valid 1 1 1 320 840n
+preplace netloc axi_fifo_v3_0_avg_read_cycles_out 1 2 1 980 670n
+preplace netloc axi_fifo_v3_0_avg_write_cycles_out 1 2 1 1000 690n
+preplace netloc axi_fifo_v3_0_axi_avg_read_cycles_out 1 2 1 1280 1510n
+preplace netloc axi_fifo_v3_0_axi_avg_write_cycles_out 1 2 1 1280 1530n
+preplace netloc axi_fifo_v3_0_axi_max_read_cycles_out 1 2 1 1280 1550n
+preplace netloc axi_fifo_v3_0_axi_max_write_cycles_out 1 2 1 1280 1570n
+preplace netloc axi_fifo_v3_0_axi_min_read_cycles_out 1 2 1 1280 1590n
+preplace netloc axi_fifo_v3_0_axi_min_write_cycles_out 1 2 1 1280 1610n
+preplace netloc axi_fifo_v3_0_buffer_in_ready 1 2 3 870J 1710 1540 1720 1920
+preplace netloc axi_fifo_v3_0_buffer_out_data 1 2 3 850J 1740 N 1740 1910
+preplace netloc axi_fifo_v3_0_buffer_out_valid 1 2 3 860 1750 N 1750 1900J
+preplace netloc axi_fifo_v3_0_max_read_cycles_out 1 2 1 1030 710n
+preplace netloc axi_fifo_v3_0_max_write_cycles_out 1 2 1 1060 730n
+preplace netloc axi_fifo_v3_0_min_read_cycles_out 1 2 1 1090 750n
+preplace netloc axi_fifo_v3_0_min_write_cycles_out 1 2 1 1110 770n
+preplace netloc axi_fifo_v3_1_avg_read_cycles_out 1 2 1 1310 140n
+preplace netloc axi_fifo_v3_1_avg_write_cycles_out 1 2 1 1300 160n
+preplace netloc axi_fifo_v3_1_axi_avg_read_cycles_out 1 2 1 1220 260n
+preplace netloc axi_fifo_v3_1_axi_avg_write_cycles_out 1 2 1 1200 280n
+preplace netloc axi_fifo_v3_1_axi_max_read_cycles_out 1 2 1 1180 300n
+preplace netloc axi_fifo_v3_1_axi_max_write_cycles_out 1 2 1 1160 320n
+preplace netloc axi_fifo_v3_1_axi_min_read_cycles_out 1 2 1 1150 340n
+preplace netloc axi_fifo_v3_1_axi_min_write_cycles_out 1 2 1 1140 360n
+preplace netloc axi_fifo_v3_1_buffer_in_ready 1 0 3 -150 -80 NJ -80 950
+preplace netloc axi_fifo_v3_1_buffer_out_data 1 0 3 -130 -70 NJ -70 1310
+preplace netloc axi_fifo_v3_1_buffer_out_valid 1 0 3 -110 -60 NJ -60 830
+preplace netloc axi_fifo_v3_1_max_read_cycles_out 1 2 1 1290 180n
+preplace netloc axi_fifo_v3_1_max_write_cycles_out 1 2 1 1280 200n
+preplace netloc axi_fifo_v3_1_min_read_cycles_out 1 2 1 1270 220n
+preplace netloc axi_fifo_v3_1_min_write_cycles_out 1 2 1 1260 240n
+preplace netloc axi_fifo_v3_2_avg_read_cycles_out 1 2 1 1250 560n
+preplace netloc axi_fifo_v3_2_avg_write_cycles_out 1 2 1 1240 580n
+preplace netloc axi_fifo_v3_2_axi_avg_read_cycles_out 1 2 1 1080 680n
+preplace netloc axi_fifo_v3_2_axi_avg_write_cycles_out 1 2 1 1050 700n
+preplace netloc axi_fifo_v3_2_axi_max_read_cycles_out 1 2 1 1020 720n
+preplace netloc axi_fifo_v3_2_axi_max_write_cycles_out 1 2 1 990 740n
+preplace netloc axi_fifo_v3_2_axi_min_read_cycles_out 1 2 1 970 760n
+preplace netloc axi_fifo_v3_2_axi_min_write_cycles_out 1 2 1 960 780n
+preplace netloc axi_fifo_v3_2_buffer_in_ready 1 0 3 -140 -50 NJ -50 840
+preplace netloc axi_fifo_v3_2_buffer_out_data 1 0 3 -120 -40 NJ -40 960
+preplace netloc axi_fifo_v3_2_buffer_out_valid 1 0 3 -100 -30 NJ -30 820
+preplace netloc axi_fifo_v3_2_max_read_cycles_out 1 2 1 1230 600n
+preplace netloc axi_fifo_v3_2_max_write_cycles_out 1 2 1 1210 620n
+preplace netloc axi_fifo_v3_2_min_read_cycles_out 1 2 1 1190 640n
+preplace netloc axi_fifo_v3_2_min_write_cycles_out 1 2 1 1170 660n
+preplace netloc axi_fifo_v3_3_avg_read_cycles_out 1 2 1 1130 980n
+preplace netloc axi_fifo_v3_3_avg_write_cycles_out 1 2 1 1120 1000n
+preplace netloc axi_fifo_v3_3_axi_avg_read_cycles_out 1 2 1 940 1100n
+preplace netloc axi_fifo_v3_3_axi_avg_write_cycles_out 1 2 1 930 1120n
+preplace netloc axi_fifo_v3_3_axi_max_read_cycles_out 1 2 1 920 1140n
+preplace netloc axi_fifo_v3_3_axi_max_write_cycles_out 1 2 1 910 1160n
+preplace netloc axi_fifo_v3_3_axi_min_read_cycles_out 1 2 1 900 1180n
+preplace netloc axi_fifo_v3_3_axi_min_write_cycles_out 1 2 1 890 1200n
+preplace netloc axi_fifo_v3_3_buffer_in_ready 1 0 3 -100 1680 NJ 1680 830
+preplace netloc axi_fifo_v3_3_buffer_out_data 1 0 3 -110 1710 NJ 1710 820
+preplace netloc axi_fifo_v3_3_buffer_out_valid 1 0 3 -120 1720 NJ 1720 840
+preplace netloc axi_fifo_v3_3_max_read_cycles_out 1 2 1 1100 1020n
+preplace netloc axi_fifo_v3_3_max_write_cycles_out 1 2 1 1070 1040n
+preplace netloc axi_fifo_v3_3_min_read_cycles_out 1 2 1 1040 1060n
+preplace netloc axi_fifo_v3_3_min_write_cycles_out 1 2 1 1010 1080n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 5 -160 40 330 1690 N 1690 1520 810 1940J
+preplace netloc sw0_1 1 0 5 -180 1220 300J 1700 NJ 1700 1550 820 1930J
+preplace netloc sys_clock_1 1 0 5 -170 30 360 -20 1320 590 1510 800 1890
+preplace netloc axi_fifo2_0_m_axi 1 2 2 880 1670 1540
+preplace netloc axi_fifo_v3_1_m_axi 1 2 2 N 40 1560
+preplace netloc axi_fifo_v3_2_m_axi 1 2 2 N 460 1530
+preplace netloc axi_fifo_v3_3_m_axi 1 2 2 950 1680 1530
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 1940 1340n
+preplace netloc axi_interconnect_0_M01_AXI 1 4 1 1880 940n
+preplace netloc axi_interconnect_2_M00_AXI 1 4 1 1870 1160n
+preplace netloc axi_interconnect_3_M00_AXI 1 4 1 1860 1380n
+preplace netloc processing_system7_0_DDR 1 5 1 2370J 1350n
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 NJ 1380
+levelinfo -pg 1 -200 100 610 1420 1710 2140 2390
+pagesize -pg 1 -db -bbox -sgen -310 -240 2500 1830
+"
+}
+0

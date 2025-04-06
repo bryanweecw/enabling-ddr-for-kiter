@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../bram_from_scratch.gen/sources_1/bd/bram_1/ipshared/ec67/hdl" --include "../../../../bram_from_scratch.gen/sources_1/bd/bram_1/ipshared/ee60/hdl" --include "../../../../bram_from_scratch.gen/sources_1/bd/bram_1/ipshared/7698" --include "/tools/Xilinx/Vivado/2022.2/data/xilinx_vip/include" \
+"../../../../bram_from_scratch.srcs/sources_1/new/sim_aximasterplugmodel.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

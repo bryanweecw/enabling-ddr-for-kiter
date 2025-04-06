@@ -41,10 +41,10 @@ Each Vivado project (`dram_fifo_buffer/`, `static_delay_with_dram/`, and `tapiir
 - Open the block design you desire to implement, and run Generate Bitstream.
 
 ### 2. **VHDL Files**
-The `vhdl_files/` directory contains standalone VHDL source files for the DRAM FIFO buffer. These can be reused or re-integrated into new or existing Vivado projects as needed. 
-The directory contains two files `axi_fifo_v3.vhd` and `axi_fifo_n3.vhd`. The former file is the wrapper for the buffer, and the latter file contains the logical implementation of the buffer.
-A subdirectory `libraries` contains files needed to be imported together with the buffer into a new project. Some are in further subdirectories which are named according to the library they should be assigned to within your project (i.e. axi_master_burst_v2_0_7).
-If they are not contained in a further subdirectory, they can be in the main/ working library that the buffer is in.
+- The `vhdl_files/` directory contains standalone VHDL source files for the DRAM FIFO buffer. These can be reused or re-integrated into new or existing Vivado projects as needed.
+- The directory contains two files `axi_fifo_v3.vhd` and `axi_fifo_n3.vhd`. The former file is the wrapper for the buffer, and the latter file contains the logical implementation of the buffer.
+- A subdirectory `libraries` contains files needed to be imported together with the buffer into a new project. Some are in further subdirectories which are named according to the library they should be assigned to within your project (i.e. axi_master_burst_v2_0_7).
+- If they are not contained in a further subdirectory, they can be in the main/ working library that the buffer is in.
 
 ### 3. **Vitis Integration**
 To initialize the SSM2203 audio codec:

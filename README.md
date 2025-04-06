@@ -1,5 +1,6 @@
 # Capstone Project – DRAM Buffer Experiments  
 **Wee Chin Wei, Bryan**
+
 **Mathematical, Computational, and Statistical Sciences**  
 **Yale-NUS College – Final Year Undergraduate Capstone**
 
